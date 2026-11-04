@@ -20,8 +20,6 @@ Read about the process here:
    <a href= "https://www.thedataschool.de/skyla-patterson/fda-data-project-day-3-creating-tables-with-ctes/">
   <img width="292" height="500" alt="Screenshot 2026-11-04 134933" src="https://github.com/user-attachments/assets/447adcbf-f104-412d-b8b4-6ab054197ab3" />
   </a>
-</p>
-<p align="left">
   <a href= "https://www.thedataschool.de/skyla-patterson/fda-data-project-day-4-data-issues-building-table-on-prep-and-loading-into-snowflake/">
   <img width="286" height="533" alt="Screenshot 2026-11-04 134438" src="https://github.com/user-attachments/assets/8b1ec9c7-b1df-4ffa-8a73-2c284052ce92" />
   </a>
