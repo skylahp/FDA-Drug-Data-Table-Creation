@@ -1,1 +1,107 @@
+//create manufacturer_information 
+create or replace table sp_manufacturer_information(
+    manufacturer_id int primary key,
+    manufacturer_name varchar(100)
+);
 
+//create drug_information
+
+create or replace table sp_drug_information(
+    drug_id int primary key,
+    drug_id_type varchar(50),
+    manufacturer_id int,
+    package_ndc varchar(100),
+    brand_name varchar(100),
+    generic_name varchar(100),
+    dosage_form varchar(50),
+    route varchar(50)
+);
+
+// create pharmaceutical information
+create or replace table sp_pharmaceutical_information(
+    drug_id int primary key,
+    cs_id int,
+    moa_id int,
+    epc_id int,
+    pe_id int
+);
+
+// create drug type table
+create or replace table sp_drug_type(
+    drug_id int primary key,
+    drug_id_type varchar(50),
+    reference_drug varchar(50),
+    reference_standard varchar(50),
+    marketing_status varchar(50),
+    product_type varchar(50),
+    product_ndc varchar(50),
+    te_code varchar(50),
+    unii varchar(50)
+    );
+
+// create shortage drug information
+create or replace table sp_shortage_drug_information(
+    drug_id int primary key,
+    therapeutic_category varchar(100),
+    contact_info varchar(100),
+    related_info varchar,
+    status varchar(50),
+    availability varchar(50),
+    shortage_reason varchar
+);
+
+//create drug_application_information
+create or replace table sp_drug_applications(
+    drug_id int primary key,
+    application_number varchar(50),
+    submission_type varchar(50)
+);
+
+//create drug_shortage_submissions
+create or replace table sp_drug_shortage_submissions(
+    drug_id int primary key,
+    application_number varchar(50),
+    update_type varchar(50),
+    initial_posting_date date,
+    update_date date
+);
+
+//create submissions_information
+create or replace table sp_submissions_information(
+    drug_id int primary key,
+    submission_number varchar(50),
+    submission_status varchar(50),
+    submission_class_code varchar(50),
+    status_date date,
+    review_priority varchar(50)
+);
+
+//create discountinued drugs
+create or replace table sp_discontinuted_drugs(
+    drug_id int primary key,
+    discontinued_date date
+);
+
+//create pharm class pe
+create or replace table sp_pharm_class_pe(
+    pe_id int primary key,
+    pe_type varchar(100)
+);
+
+//create pharm class epc
+create or replace table sp_pharm_class_epc(
+    epc_id int primary key,
+    epc_type varchar(50)
+);
+
+//create pharm class MoA
+create or replace table sp_pharm_class_moa(
+    moa_id int primary key,
+    moa_type varchar(100)
+);
+
+//create pharm class cs
+create or replace table sp_pharm_class_cs(
+    cs_id int primary key,
+    cs_type varchar(50)
+);
