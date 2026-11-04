@@ -12,7 +12,6 @@ Read about the process here:
   <a href= "https://www.thedataschool.de/skyla-patterson/fda-data-project-day-1-alteryx-workflow-and-masking-api-keys/">
   <img width="286" height="502" alt="Screenshot 2026-11-04 115811" src="https://github.com/user-attachments/assets/3dff820e-f328-4e7b-b7e6-c723dd03819c" />
   </a>
-</p>
   <a href= "https://www.thedataschool.de/skyla-patterson/project-day-2-importance-of-schemas/">
   <img width="286" height="501" alt="Screenshot 2026-11-04 120736" src="https://github.com/user-attachments/assets/7afd5661-1f2b-461e-9e16-2e316523c00e" />
   </a>
