@@ -1,3 +1,4 @@
+# Project Description
 In this week-long project I connected to data using an API, created a table, wrote DDL to create tables in Snowflake and built a dashboard with two views. This project shows the code and the dashboard can be found by clicking below: 
 
 <p align="left">
@@ -6,6 +7,7 @@ In this week-long project I connected to data using an API, created a table, wro
   </a>
 </p>
 
+# Project Blogs
 Read about the process here:
 
 <p align="left">
