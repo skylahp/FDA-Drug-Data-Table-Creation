@@ -5,3 +5,12 @@ In this week-long project I connected to data using an API, created a table, wro
     <img width="799" height="499" alt="Image" src="https://github.com/user-attachments/assets/2b03700e-baaa-4d02-9e84-bdd9cbe05fc6" /> 
   </a>
 </p>
+
+Read about the process here:
+
+<p align="left">
+  <a href= "https://www.thedataschool.de/skyla-patterson/fda-data-project-day-1-alteryx-workflow-and-masking-api-keys/">
+  <img width="286" height="502" alt="Screenshot 2026-11-04 115811" src="https://github.com/user-attachments/assets/3dff820e-f328-4e7b-b7e6-c723dd03819c" />
+  </a>
+</p>
+
