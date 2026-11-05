@@ -1,5 +1,5 @@
 # Project Description
-In this week-long project I connected to data using an API, created a table, wrote DDL to create tables in Snowflake and built a dashboard with two views. This project shows the code and the dashboard can be found by clicking below: 
+In this week-long project I connected to data using an API, built a schema, created 13 tables with DDL in Snowflake, and connected that data to Tableau to build a dashboard with two views. This project shows the code and the dashboard can be found by clicking below: 
 
 <p align="left">
   <a href="https://public.tableau.com/views/FDADrugInformation/ExecutiveView?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">
